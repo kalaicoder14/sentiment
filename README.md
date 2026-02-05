@@ -1,5 +1,5 @@
 Sentiment Analysis:
-      A simple Sentiment Analysis web application built using Streamlit and TextBlob.
+      A simple Sentiment Analysis web application built using Streamlit and LLM model.
       This app analyzes user-entered text and classifies it as Positive, Negative, or Neutral based on sentiment polarity.
   
 Technologies Used:
@@ -9,6 +9,7 @@ Technologies Used:
 
  Install dependencies:
      streamlit
-     textblob
+     groq
+     dotenv
 Run Command:
     streamlit run app.py
